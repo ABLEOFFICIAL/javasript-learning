@@ -36,3 +36,19 @@ console.log(name.split(', '))
 const hello = `my name is ${name} and i am ${age}`;
 
 console.log(hello)
+
+// for loop
+for(let i = 0; i<=9; i++) {
+    console.log(i)
+}
+
+for(let y = 5; y < 11; y++) {
+    console.log (`for number loop ${y}`)
+}
+
+// whhile loop
+let t = 0
+while (t < 6) {
+    console.log (`while loop number ${t}`);
+    t++;
+} 
