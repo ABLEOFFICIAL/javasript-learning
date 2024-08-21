@@ -7,6 +7,9 @@ var additem = document.getElementById('btm');
 // add event
 f.addEventListener('submit', display);
 
+// add event for removing items
+additem.addEventListener('click', deleteitem);
+
 // create function
 function display(e){
     e.preventDefault();
@@ -48,5 +51,17 @@ function display(e){
 
     // additem.appendChild()
     // console.log(input.value);
+}
+
+// create a function for deleting items
+function deleteitem(e) {
+    e.preventDefault();
+
+    if(e.target.classList.contains('select')){
+        if(confirm('Are you sure?')){
+            e.target.parentElement.remove();
+        }
+        // console.log('josh');
+    }
 }
 
