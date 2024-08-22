@@ -52,3 +52,11 @@ while (t < 6) {
     console.log (`while loop number ${t}`);
     t++;
 } 
+
+const fruits = [];
+fruits.push("orange")
+
+console.log(fruits)
+
+
+// , "mangoes", "grapes", "apples"
